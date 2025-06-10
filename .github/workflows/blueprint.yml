@@ -78,3 +78,5 @@ jobs:
         run: env LEAN_ABORT_ON_PANIC=1 ~/.elan/bin/lake exe runLinter FLT
 
       - uses: leanprover-community/docgen-action@main
+        with:
+          blueprint: true
